@@ -195,12 +195,13 @@
  #connect .first .iconfont{
     font-size: 60px;
     color: green;
-    
+    vertical-align: middle;
  }
  #connect .second .iconfont{
     font-size: 30px;
     color: green;
     margin-right: 10px;
+    vertical-align: middle;
  }
  #connect .second{
     font-size: 20px;
