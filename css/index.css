@@ -106,7 +106,7 @@
     margin-left: 30px;
     margin-right: 40px;
     height: 350px;
-    border: solid 1px black;
+   
 }
 #show .container{
     margin-top: 30px;
@@ -212,5 +212,5 @@
  .connect-map{
      height: 300px;
      width: 100%;
-     border: 1px solid black;
+    
  }
