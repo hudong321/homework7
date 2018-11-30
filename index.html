@@ -421,7 +421,7 @@
 	function loadJScript() {
 		var script = document.createElement("script");
 		script.type = "text/javascript";
-		script.src = "http://api.map.baidu.com/api?v=2.0&ak=i65XCuPS89Tnf2XCSz6sK9ynCBvkIpB7&callback=init";
+		script.src = "https://api.map.baidu.com/api?v=2.0&ak=i65XCuPS89Tnf2XCSz6sK9ynCBvkIpB7&callback=init";
 		document.body.appendChild(script);
 	}
 	function init() {
@@ -434,7 +434,7 @@
         map.setZoom(16); 
         //创建小狐狸
 	var pt = new BMap.Point(114.450664,30.460163);
-	var myIcon = new BMap.Icon("http://lbsyun.baidu.com/jsdemo/img/fox.gif", new BMap.Size(300,157));
+	var myIcon = new BMap.Icon("https://lbsyun.baidu.com/jsdemo/img/fox.gif", new BMap.Size(300,157));
 	var marker2 = new BMap.Marker(pt,{icon:myIcon});  // 创建标注
 	map.addOverlay(marker2);              // 将标注添加到地图中
 //地图2
@@ -447,7 +447,7 @@ var map2 = new BMap.Map("allmap2");            // 创建Map实例
         map2.setZoom(16); 
         //创建小狐狸
 	var pt2 = new BMap.Point(114.450664,30.460163);
-	var myIcon2 = new BMap.Icon("http://lbsyun.baidu.com/jsdemo/img/fox.gif", new BMap.Size(300,157));
+	var myIcon2 = new BMap.Icon("https://lbsyun.baidu.com/jsdemo/img/fox.gif", new BMap.Size(300,157));
 	var marker4 = new BMap.Marker(pt2,{icon:myIcon2});  // 创建标注
 	map2.addOverlay(marker4);              // 将标注添加到地图中
 	}  
