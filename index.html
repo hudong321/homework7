@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_939385_xpptzgczpv.css">
+    <title>Document</title>
+    <style>
+        .navbar{
+   background: white;
+   border-style: none;
+}
+.collapse{
+    margin-top: 20px;
+}
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="head">
+        <div class="container">
+
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="images/logo0.png" alt="" class="img-responsive"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation" class="active">
+                            <a href="#home" aria-controls="home" role="tab" data-toggle="tab">首页</a>
+                        </li>
+                        <li role="presentation" class="presentation">
+                            <a href="#about" aria-controls="tab" role="tab" data-toggle="tab">关于公司</a>
+
+                        </li>
+                        <li role="presentation" class="presentation">
+
+                            <a href="#show" aria-controls="tab" role="tab" data-toggle="tab">产品展示</a>
+
+                        </li>
+                        <li role="presentation" class="presentation">
+
+                            <a href="#join" aria-controls="tab" role="tab" data-toggle="tab">招商加盟</a>
+
+                        </li>
+                        <li role="presentation" class="presentation">
+
+                            <a href="#connect" aria-controls="tab" role="tab" data-toggle="tab">联系我们</a>
+                        </li>
+                    </ul>
+            </nav>
+
+        </div>
+    </div>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <!-- 主页 -->
+        <div role="tabpanel" class="tab-pane active" id="home">
+            <!-- 轮播图 -->
+            <div id="carousel-id" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                    <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" class="img-responsive" alt="First slide"
+                            src="images/aboutus_banner.jpg">
+
+                    </div>
+                    <div class="item">
+                        <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" class="img-responsive"
+                            alt="Second slide" src="images/banner.jpg">
+                    </div>
+                    <div class="item active">
+                        <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" class="img-responsive" alt="Third slide"
+                            src="images/aboutus_banner.jpg">
+
+                    </div>
+                </div>
+                <a class="left carousel-control " href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <h3 class="text-center">企业精神</h3>
+            <div class="container">
+                <div class="row mid-ico">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <img src="images/pinpai.png" class="img-responsive" alt="">
+                        <p class="title ">品质</p>
+                        <p class="sm_title">品质是品牌的发展基石</p>
+                        <p class="sm_title">坚持好品质,必定铸就优质品牌</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <img src="images/keji.png" class="img-responsive" alt="">
+                        <p class="title ">科技</p>
+                        <p class="sm_title">科技是品牌的助推力</p>
+                        <p class="sm_title">只有不断科技创新,才能不会被淘汰</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <img src="images/chengxin.png" class="img-responsive" alt="">
+                        <p class="title ">诚信</p>
+                        <p class="sm_title">诚信是品牌的防护盾</p>
+                        <p class="sm_title">诚信企业,放心品牌才能走的更长久</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <img src="images/gongying.png" class="img-responsive" alt="">
+                        <p class="title ">共赢</p>
+                        <p class="sm_title">共赢是品牌的生命力</p>
+                        <p class="sm_title">与客户共赢,与员工共赢与企业共赢</p>
+                    </div>
+                </div>
+                <div class="show">
+                    <p class="text-center">产品展示</p>
+                </div>
+                <div class="underline"></div>
+                <!-- 产品展示 -->
+                <div class="row product-show">
+                    <div class="col-md-4 col-sm-12 col-xs-12"><img src="images/item01.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12"><img src="images/item02.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12"><img src="images/item03.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12"><img src="images/item04.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12"><img src="images/item05.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12"><img src="images/item06.jpg" class="img-responsive" alt=""></div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+        <!-- 关于公司页 -->
+        <div role="tabpanel" class="tab-pane" id="about">
+            <div class="mid-img"><img src="images/banner02.jpg" alt="" class="img-responsive"></div>
+            <div class="container">
+                <div class="show">
+                    <p class="text-center">关于木兮</p>
+                </div>
+                <div class="underline"></div>
+
+                <div class="row mid-contain">
+                    <!-- 地图 -->
+                    <div class="col-md-5 col-sm-10 col-xs-10 allmap">
+                        <div id="allmap"> </div>
+                    </div>
+                    <div class="col-md-6 col-sm-10 col-xs-10 text">
+                        <p> <span class="tips">木兮地板</span>由著名的湖北百诺木业有限公司监制出品。木兮地板秉承了百诺木业一贯的品质，将严谨的作风，不苟的态度，时尚的气息有机地融合到地板中，将木兮地板的无尽心血，无穷才智淋漓尽致的展现在世人面前。</p>
+                        <p>湖北百诺木业有限公司以一流的设备，一流的材料，一流的技术造一流的地板，公司先后通过ISO9001质量管理认证和ISO14000环境管理体系认证，并获得“中国知名品牌”称号。强大的研发队伍，精良的生产工艺，严格的质检把关确保了木兮系列产品的优秀品质，是您居家，办公，开店的首选地板。</p>
+                        <p>木兮地板耐磨等级符合AC3标准，甲醛释放量低于国家E1标准，更健康环保，阻燃等级达到B1标准。湖北百诺木业有限公司对市场的坚定信念和雄厚的实力以及积极响应政府和环保政策都让自己在市场上占有重要的位置，并成为地板行业的领跑者</p>
+                        <p><span class="tips">“一面艺术,一面科技”，</span>湖北百诺木业有限公司将用最真诚的行动来打动每位客户。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 产品展示页 -->
+        <div role="tabpanel" class="tab-pane" id="show">
+            <!-- 轮播 -->
+            <div id="carousel2-id" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel2-id" data-slide-to="0" class=""></li>
+                    <li data-target="#carousel2-id" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel2-id" data-slide-to="2" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" class="img-responsive" alt="First slide"
+                            src="images/aboutus_banner.jpg">
+
+                    </div>
+                    <div class="item">
+                        <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" class="img-responsive"
+                            alt="Second slide" src="images/banner.jpg">
+                    </div>
+                    <div class="item active">
+                        <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" class="img-responsive" alt="Third slide"
+                            src="images/aboutus_banner.jpg">
+
+                    </div>
+                </div>
+                <a class="left carousel-control " href="#carousel2-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#carousel2-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <!-- tab -->
+            <div class="container">
+
+                <div role="tabpanel" class="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#qh" aria-controls="home" role="tab" data-toggle="tab">强化复合系列</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#gd" aria-controls="tab" role="tab" data-toggle="tab">高端水洗系列</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#lt" aria-controls="tab" role="tab" data-toggle="tab">立体拼花系列</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#dc" aria-controls="tab" role="tab" data-toggle="tab">多层实木系列</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#sm" aria-controls="tab" role="tab" data-toggle="tab">实木系列</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active row" id="qh">
+                            <div class="col-md-4 col-sm-6 col-xs-10"><img src="images/item01.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item02.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item03.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10"><img src="images/item04.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item05.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item06.jpg" alt="" class="img-responsive"></div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane row" id="gd">
+                            <div class="col-md-4 col-sm-6 col-xs-10"><img src="images/item03.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item06.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item04.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10"><img src="images/item01.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item02.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item05.jpg" alt="" class="img-responsive"></div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane row" id="lt">
+                            <div class="col-md-4 col-sm-6 col-xs-10"><img src="images/item06.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item05.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item04.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10"><img src="images/item03.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item02.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item01.jpg" alt="" class="img-responsive"></div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane row" id="dc">
+                            <div class="col-md-4 col-sm-6 col-xs-10"><img src="images/item04.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item03.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item01.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10"><img src="images/item05.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item02.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item06.jpg" alt="" class="img-responsive"></div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane row" id="sm">
+                            <div class="col-md-4 col-sm-6 col-xs-10"><img src="images/item01.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item02.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item03.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10"><img src="images/item04.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item05.jpg" alt="" class="img-responsive"></div>
+                            <div class="col-md-4 col-sm-6 col-xs-10 weiyi"><img src="images/item06.jpg" alt="" class="img-responsive"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- 加盟页 -->
+        <div role="tabpanel" class="tab-pane" id="join">
+            <div class="mid-img"><img src="images/banner02.jpg" alt="" class="img-responsive"></div>
+            <div class="container">
+                <div class="show">
+                    <p class="text-center">招商加盟</p>
+                </div>
+                <div class="underline"></div>
+            </div>
+            <div class="main">
+                <div class="first">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12 col-xs-12 row">
+                                <div class="col-md-6 col-sm-12 col-xs-12 ico">
+
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <p class="joinus_part_title">加盟条件</p>
+                                    <p class="joinus_part_smtitle">Condition of joining</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12 col-sm-offset-1 join-text">
+                                    <p>1.正常营业过了生存期；</p>
+                                    <p>2.经销商有强烈的发展企图心；</p>
+                                    <p>3.三年以上零售板材终端经验，最好在当地排名前三名，县级前两名为佳；</p>
+                                    <p>4.具有一定的经济实力和好的店面；</p>
+                                    <p>5.认可木兮品牌发展价值观；</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12 col-xs-12 row">
+                                    <div class="col-md-6 col-sm-12 col-xs-12 ico2">
+    
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <p class="joinus_part_title">加盟流程</p>
+                                        <p class="joinus_part_smtitle">Condition of process</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12 col-sm-offset-1 join-text">
+                                        <p>加盟咨询</p>
+                                        <p>填写加盟申请表</p>
+                                        <p>加盟商资料调查</p>
+                                        <p>店铺选址</p>
+                                        <p>实地考察与评估</p>
+                                        <p>公司审批</p>
+                                        <p>交信誉保证金、签订特许经营合同</p>
+                                        <p>招聘、培训营业员、标准店铺装修</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-12 col-xs-12 row">
+                                        <div class="col-md-6 col-sm-12 col-xs-12 ico3">
+        
+                                        </div>
+                                        <div class="col-md-6 col-sm-12 col-xs-12">
+                                            <p class="joinus_part_title">加盟政策</p>
+                                            <p class="joinus_part_smtitle">Policy of joining</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-xs-12 col-sm-offset-1 join-text">
+                                    <div class="join-text-title">行业分析</div>
+                                    <p>近年各地房价快速增长，对房地产的大量需求也带动了装修装饰材料市场的发展，我国住房装修总产值以每年20％的速度递增。同时，装修装饰材料生产区域限制成本过高、产品同质化严重，加上价格竞争，导致企业利润微薄，直接对传统经营模式提出了新的挑战。</p>
+                                    <div class="join-text-title">传统经营模式的特点是</div>
+                                    <p>1、规模偏小；</p>
+									<p>2、质量参差不齐;</p>
+									<p>3、服务体系不完善；</p>
+									<p>4、经营管理水平低；</p>
+									<p>5、低层次混乱竞争；</p>
+									<p>6、缺乏核心竞争力；</p>
+                                    <p>7、议价销售。</p>
+                                    <div class="join-text-title">传统经营模式的弊端</div>
+                                    <p>1、单纯的价格竞争导致低品质、低环保要求；</p>
+									<p>2、薄利赊销增大经营风险；</p>
+									<p>3、过度营销导致行业陷入困境，加大行业成本；</p>
+                                    <p>4、议价销售缺乏对消费者的保障，影响行业声誉。</p>
+                                    <p>在此情况下，木兮率先实现从传统经营模式到专卖店销售模式的转移，通过在流通渠道建立品牌影响力，引导行业从低质向高质发展、从不环保向环保发展，从低层次的价格竞争走向品牌竞争。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <!-- 联系页 -->
+        <div role="tabpanel" class="tab-pane" id="connect">
+            <div class="mid-img">
+                <img src="images/aboutus_banner.jpg" alt="" class="img-responsive">
+            </div>
+                <!-- 联系我们 -->
+                <div class="connect-us">
+                        <div class="container">
+                                <div class="show">
+                                    <p class="text-center">联系我们</p>
+                                </div>
+                                <div class="underline"></div>
+                            </div>
+                </div>
+                <div class="container main">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-10 col-xs-10 first col-sm-offset-2">
+                        <div><i class="iconfont">&#xe601;</i>027-83622296</div>
+                        </div>
+                        <div class="col-md-5 col-sm-10 col-xs-10 second">
+                        <p><i class="iconfont">&#xe611;</i>13387576980</p>
+                        <p><i class="iconfont">&#xe605;</i>yt15yi@163.com</p>
+                        <p><i class="iconfont">&#xe74b;</i>汉西三路香江家居A12栋16号湖北营销中心</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 地图 -->
+                <div class="connect-map">
+                    <div></div>
+                </div>
+        </div>
+    </div>
+    <!-- 定位 -->
+    <img src="images/small_weixin.png" alt="" class="img-responsive" id="fixed-img">
+    <!-- 底部 -->
+    <div class="foot">
+        <div class="container">
+            <div class="row main-foot">
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <img src="images/logo.ico" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 ">
+                    <div class="row center">
+                        <div class="col-md-3 col-sm-12 col-xs-12"><a href="#">关于公司</a></div>
+                        <div class="col-md-3 col-sm-12 col-xs-12"><a href="#">产品展示</a></div>
+                        <div class="col-md-3 col-sm-12 col-xs-12"><a href="#">招商加盟</a></div>
+                        <div class="col-md-3 col-sm-12 col-xs-12"><a href="#">联系我们</a></div>
+                    </div>
+                    <p class="text-center">版权所有©木兮实业有限公司 鄂ICP备18011650号</p>
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="row end">
+                        <p class="col-md-12 col-sm-4 col-xs-12"><span class="iconfont">&#xe601;</span> 027-83622296</p>
+                        <p class="col-md-12 col-sm-4 col-xs-12"><span class="iconfont">&#xe611;</span>13387576980</p>
+                        <p class="col-md-12 col-sm-4 col-xs-12"><span class="iconfont">&#xe674;</span>yt15yi@163.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+    var map = new BMap.Map("allmap"); 
+    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+	//添加地图类型控件
+	map.addControl(new BMap.MapTypeControl({
+		mapTypes:[
+            BMAP_NORMAL_MAP,
+            BMAP_HYBRID_MAP
+        ]}));	  
+	map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    </script> -->
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=i65XCuPS89Tnf2XCSz6sK9ynCBvkIpB7"></script> -->
+</body>
+
+</html>
